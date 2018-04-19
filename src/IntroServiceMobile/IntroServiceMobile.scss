@@ -1,0 +1,26 @@
+@import 'styles/_colors.scss';
+
+.introServiceMobile__title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: $dark-blue;
+}
+.introServiceMobile__card {
+	padding: 1rem;
+	background-color: $dark-white;
+}
+.introServiceMobile__img {
+	padding-top: 1rem;
+}
+.introServiceMobile__content {
+	font-size: 1.2rem;
+	color: #474747;
+}
+.introServiceMobile__content ul {
+	margin: 0;
+}
+.introServiceMobile__content li {
+	padding-top: 0.5rem;
+}
+

@@ -1,0 +1,27 @@
+@import 'styles/_colors.scss';
+
+.person {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: $dark-grey;
+}
+.person__name {
+	font-size: 1.2rem;
+	margin: 0.5rem;
+}
+.slick-slide img {
+	display: initial;
+}
+.person__title {
+	color: $white;
+	margin: 0.5rem;
+	font-size: 1.2rem;
+}
+.person__linkedin {
+	margin-top: 0.1rem;
+}
+.person__linkedin a {
+	color: $dark-grey;
+
+}
+

@@ -1,0 +1,22 @@
+.introServiceMobile__title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #27274c; }
+
+.introServiceMobile__card {
+  padding: 1rem;
+  background-color: #F3F3F5; }
+
+.introServiceMobile__img {
+  padding-top: 1rem; }
+
+.introServiceMobile__content {
+  font-size: 1.2rem;
+  color: #474747; }
+
+.introServiceMobile__content ul {
+  margin: 0; }
+
+.introServiceMobile__content li {
+  padding-top: 0.5rem; }

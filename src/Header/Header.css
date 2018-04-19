@@ -1,0 +1,53 @@
+/*** layout ***/
+.header {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  justify-content: center;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px transparent;
+  font-family: Montserrat,sans-serif;
+  background-color: #27274c; }
+
+.header__wrapper {
+  display: flex;
+  width: 80%;
+  align-items: center; }
+
+.header__logo {
+  flex-grow: 2; }
+
+.header__navmenu {
+  flex-grow: 1; }
+
+.header__navmenumobile__button {
+  display: none;
+  cursor: pointer;
+  color: #ffffff; }
+
+.showMobilemenu {
+  display: block !important; }
+
+/*** media queries ***/
+@media screen and (max-width: 943px) {
+  .header {
+    position: relative;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
+  .header__navmenumobile__button {
+    display: block; }
+  .header__logo {
+    display: flex;
+    justify-content: space-around; }
+  .header__wrapper {
+    width: 100%;
+    flex-wrap: wrap; }
+  .header__logo {
+    flex-basis: 90%; }
+  .header__navmenumobile__button {
+    text-align: center;
+    flex-basis: 10%; }
+  .header__navmenu {
+    display: none;
+    margin-top: 0.5rem; } }

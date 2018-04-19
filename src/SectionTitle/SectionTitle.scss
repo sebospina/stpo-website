@@ -1,0 +1,45 @@
+@import 'styles/_colors.scss';
+
+.sectionTitle__title {
+	position: relative;
+	margin-top: -3rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: $dark-blue;
+	z-index:1;
+}
+.sectionTitle__bigTitle {
+	margin: 0;
+	margin-top: -1rem;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: $light-grey;
+	opacity: 0.4;
+}
+@media only screen and (max-width: 640px)  {
+	.sectionTitle__title {
+		margin-top: 1rem;
+		font-size: 2.7rem;
+	}
+	.sectionTitle__bigTitle {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1200px)  {
+	.sectionTitle__bigTitle {
+		font-size: 4rem;
+	}
+}
+@media only screen and (max-width: 1000px)  {
+	.sectionTitle__title {
+		margin-top: 1rem;
+	}
+	.sectionTitle__bigTitle {
+		display: none;
+	}
+}
+

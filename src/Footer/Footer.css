@@ -1,0 +1,30 @@
+.footer {
+  background-color: #27274c;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center; }
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 90%; }
+
+.footer__item--logo {
+  align-self: center; }
+
+.footer__title {
+  font-size: 1.2857142857142858rem; }
+
+.footer__subtitle {
+  font-size: 1.1428571428571428rem;
+  color: #f9c907; }
+
+.footer__list {
+  font-size: 1rem; }
+
+.footer--padding {
+  margin-top: 1.5rem; }
+
+.footer__link {
+  color: #959595; }

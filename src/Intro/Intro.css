@@ -1,0 +1,53 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../styles/fonts/montserrat-v11-latin-regular.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../styles/fonts/montserrat-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../styles/fonts/montserrat-v11-latin-regular.woff2") format("woff2"), url("../styles/fonts/montserrat-v11-latin-regular.woff") format("woff"), url("../styles/fonts/montserrat-v11-latin-regular.ttf") format("truetype"), url("../styles/fonts/montserrat-v11-latin-regular.svg#Montserrat") format("svg");
+  /* Legacy iOS */ }
+
+/* montserrat-700 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../styles/fonts/montserrat-v11-latin-700.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("../styles/fonts/montserrat-v11-latin-700.eot?#iefix") format("embedded-opentype"), url("../styles/fonts/montserrat-v11-latin-700.woff2") format("woff2"), url("../styles/fonts/montserrat-v11-latin-700.woff") format("woff"), url("../styles/fonts/montserrat-v11-latin-700.ttf") format("truetype"), url("../styles/fonts/montserrat-v11-latin-700.svg#Montserrat") format("svg");
+  /* Legacy iOS */ }
+
+/* montserrat-900 - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: url("../styles/fonts/montserrat-v11-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local("Montserrat Black"), local("Montserrat-Black"), url("../styles/fonts/montserrat-v11-latin-900.eot?#iefix") format("embedded-opentype"), url("../styles/fonts/montserrat-v11-latin-900.woff2") format("woff2"), url("../styles/fonts/montserrat-v11-latin-900.woff") format("woff"), url("../styles/fonts/montserrat-v11-latin-900.ttf") format("truetype"), url("../styles/fonts/montserrat-v11-latin-900.svg#Montserrat") format("svg");
+  /* Legacy iOS */ }
+
+.intro {
+  position: relative;
+  background-image: url(./intro-hero.jpg);
+  padding-top: 8rem;
+  padding-bottom: 7rem;
+  min-height: 800px; }
+
+.intro__title {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #f9c907; }
+
+.intro__title h1 {
+  font-size: 1.8666666666666667rem;
+  font-weight: 900; }
+
+.intro__title--big {
+  margin-top: 0.5rem;
+  font-size: 4rem; }
+
+@media only screen and (max-width: 640px) {
+  .intro {
+    background-color: #27274c; } }

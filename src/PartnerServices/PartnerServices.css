@@ -1,0 +1,39 @@
+.sectionScroll {
+  position: fixed;
+  right: 5%;
+  top: 50%; }
+
+.sectionScroll__item {
+  cursor: pointer;
+  text-align: right;
+  margin-bottom: 10px; }
+
+.sectionScroll__tooltip {
+  float: left;
+  position: absolute;
+  left: -160px;
+  width: 150px;
+  text-align: center;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  border-radius: 28px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  background-color: #f9c907;
+  color: #7a4ee5;
+  font-size: 1.1428571428571428rem;
+  font-weight: bold; }
+
+.sectionScroll__circle {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  border: solid 2px #979797;
+  transition: 0.5s; }
+
+.sectionScroll__circle:hover {
+  background: #f9c907;
+  border-color: #f9c907; }

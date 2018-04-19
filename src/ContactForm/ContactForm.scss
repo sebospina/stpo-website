@@ -1,0 +1,34 @@
+@import 'styles/_colors.scss';
+
+.theForm {
+	position: relative;
+}
+.contact__form__content {
+	margin: 0;
+}
+.stpoFormElement {
+	border:  solid 2.1px #e8e8e8!important;
+	padding-left: 1rem!important;
+}
+.switch {
+	color: #9e9e9e;
+}
+.switch--padding {
+	margin-left: 1rem;
+}
+@media only screen and (max-width: 1000px)  {
+	.stpoFormElement {
+		border:  solid 2.1px $white!important;
+		color: #fff;
+	}
+	.stpoFormElement.invalid {
+		border:  solid 2.1px #F72C25!important;
+		color: red;
+	}
+	.stpoFormElement::placeholder {
+	   color: $white;
+	}
+	.switch, .switch label {
+		color: $white;
+	}
+}

@@ -1,0 +1,27 @@
+.introService {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.1333333333333333rem;
+  line-height: 1.22;
+  color: #ffffff;
+  background-color: transparent;
+  transition: 0.3s;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
+.introService:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0.89;
+  color: #383838; }
+
+.introService__title {
+  font-size: 1.2rem; }
+
+.introService__list {
+  display: none;
+  color: #474747;
+  font-size: 0.9333333333333333rem;
+  font-weight: 400; }
+
+.introService__list li {
+  padding-bottom: 1rem; }

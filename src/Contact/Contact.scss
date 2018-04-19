@@ -1,0 +1,58 @@
+@import 'styles/_colors.scss';
+
+.contact__container {
+	margin-bottom: 0;
+}
+.contact__left {
+	background-color: $yellow;
+}
+.contact__title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 4rem;
+	color: $dark-blue;
+}
+.contact__content {
+	margin-left: 40%;
+	margin-right: 5%;
+	margin-top: 40%;
+	margin-bottom: 330px;
+}
+.contact__description {
+	color: $white;
+	font-size: 1.2rem;
+}
+.contact__button {
+	background-color: $purple;
+	color: $white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+}
+.contact__form {
+	width:80%;
+	padding-top: 3rem;
+}
+@media only screen and (max-width: 1000px)  {
+	.contact__content {
+		margin: 0;
+	}
+	.contact__title {
+		text-align: center;
+	}
+	.contact__description {
+		text-align: center;
+	}
+	.contact__button__container {
+		text-align: center;
+		padding-bottom: 2rem;
+	}
+	.contact__right {
+		background: $yellow;
+	}
+	.contact__form {
+		width:96%;
+	}
+}
+

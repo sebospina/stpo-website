@@ -1,0 +1,13 @@
+.aboutUs {
+  color: #9cafc3; }
+
+.aboutUs__text {
+  font-size: 1.2rem; }
+
+.aboutUs__text li {
+  list-style-type: disc;
+  margin-top: 1rem; }
+
+.aboutUs__text__subtitle {
+  font-weight: bold;
+  color: #27274c; }

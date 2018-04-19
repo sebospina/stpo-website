@@ -1,0 +1,17 @@
+.partnerWithUs {
+  padding-bottom: 10rem; }
+
+.partnerWithUs__button {
+  width: 30%;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+  text-transform: uppercase; }
+
+.partnerWithUs__button--marginTop {
+  margin-top: 7rem; }
+
+@media only screen and (max-width: 640px) {
+  .partnerWithUs__button {
+    width: 60%; } }

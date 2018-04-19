@@ -1,0 +1,13 @@
+@import 'styles/_colors.scss';
+
+.contactResponse {text-align: center;}
+.contactResponse__title {
+	font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #27274c;
+}
+.contactResponse__msg {
+	color: #676767;
+}
