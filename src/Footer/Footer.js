@@ -10,6 +10,10 @@ class Footer extends Component {
     		<div className="footer__wrapper">
 	      	<div className="footer__item footer__item--logo">
 	      		<Logo />
+	      		<p>(415) 761-3195</p>
+						<p>5909 Upvalley Run, Austin, TX 78731</p>
+						<p>(574) 322-1222</p>
+	      		<p>Cra 42 3 Sur 81, Medellin, Colombia</p>
 	      	</div>
 	      	<div className="footer__item">
 	      		<p className="footer__title">About Us</p>

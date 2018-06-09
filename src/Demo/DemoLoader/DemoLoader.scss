@@ -1,0 +1,13 @@
+@import 'styles/_colors.scss';
+
+.demoLoader {
+	background: red;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	display: inline-block;
+	vertical-align: top;
+	transition: all 1s ease-out;
+}
+
+

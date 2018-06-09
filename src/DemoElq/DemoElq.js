@@ -2,34 +2,35 @@ import React, { Component } from 'react';
 import './DemoElq.css';
 
 import Demo from '../Demo/Demo';
+import DemoTitle from '../Demo/DemoTitle/DemoTitle';
 import SectionHeader from '../SectionHeader/SectionHeader';
 
 class DemoElq extends Component {
 
 	constructor(props) {
     super(props);
-    this.makeRequest = this.makeRequest.bind(this);
-    this.changeLeadScore = this.changeLeadScore.bind(this);
-    this.changeAccountScore = this.changeAccountScore.bind(this);
-    this.addTool = this.addTool.bind(this);
-    this.animate = this.animate.bind(this);
-    this.highlight = this.highlight.bind(this);
-    this.moveAvatar = this.moveAvatar.bind(this);
+
   }
 
-  makeRequest() {}
-  changeLeadScore() {}
-  changeAccountScore() {}
-  addTool() {}
-  animate() {}
-  highlight() {}
-  moveAvatar() {}
-
   render() {
+    
+    const title = <DemoTitle title="Hello Demo!" />;
+    const screenActions = {
+      sayHi() {
+        document.getElementById('demo_lightbox').style.display = 'block';
+        console.log(screenActions.loaders);
+        alert('Hey you!');
+      },
+      loaders: [
+        { id: 1, icon: 'action-openEmail.png', text: 'Open Email'},
+        { id: 2, icon: 'action-downloadWhitePaper.png', text: 'Download White Paper'}
+      ]
+    }
+
     return (
       <section className="DemoElq">
       	<SectionHeader img="stpoServices__advisoryServices" title="Platform Demo" />
-      	<Demo />
+      	<Demo title={title} screenActions={screenActions} />
       </section>
     );
   }

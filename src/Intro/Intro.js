@@ -44,13 +44,13 @@ class Intro extends Component {
 
           <div className="container hide-on-med-and-up">
             <div className="col s12">
-                <IntroServiceMobile title="Advisory Services" text={advisoryItems} icon="http://www.iconninja.com/files/852/748/36/customer-userphoto-user-icon.png" />
+                <IntroServiceMobile title="Advisory Services" text={advisoryItems} icon="Advisory.png" />
             </div>
             <div className="col s12">
-                <IntroServiceMobile title="Managed Services" text={managedItems} icon="https://image.flaticon.com/icons/png/128/181/181549.png" />
+                <IntroServiceMobile title="Managed Services" text={managedItems} icon="Managed.png" />
             </div>
             <div className="col s12">
-                <IntroServiceMobile title="Technology Services" text={technologyItems} icon="https://image.flaticon.com/icons/png/128/181/181549.png" />
+                <IntroServiceMobile title="Technology Services" text={technologyItems} icon="tecn.png" />
             </div>
           </div>
           

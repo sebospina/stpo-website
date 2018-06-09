@@ -31,3 +31,13 @@
 .footer__link {
 	color: #959595;
 }
+
+/*** media queries ***/
+@media screen and (max-width: 943px) {
+  .footer__wrapper {
+    flex-direction: column;
+  }
+  .footer__wrapper {
+  	text-align: center;
+  }
+}

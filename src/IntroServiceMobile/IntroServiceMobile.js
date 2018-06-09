@@ -7,7 +7,7 @@ class IntroServiceMobile extends Component {
       <div className="col s12 m6">
 	      <div className="card introServiceMobile__card">
 	        <div>
-	          <img className="introServiceMobile__img" src={this.props.icon} />
+	          <img className="introServiceMobile__img" src={process.env.PUBLIC_URL + 'img/' + this.props.icon} />
 	        </div>
 	        <div>
 	          <span className="introServiceMobile__title">{this.props.title}</span>
